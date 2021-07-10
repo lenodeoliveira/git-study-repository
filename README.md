@@ -10,6 +10,8 @@
         > `git checkout testing`
     * Obtendo lista de branches
         > `git branch`
+    * Verificando o último commit em cada branch
+        > `git branch -v`  
     * Histórico de commits mostrando ponteiros de branch
         > `git log --oneline --decorate --graph --all`
 
@@ -21,6 +23,9 @@
    
    * Após mesclagem podemos deletar a branch
       1. `git branch -d testing`  
+   
+   * Branches que contém trabalhos que ainda não foram mesclados
+      > `git branch --no-merged`
 
 
 
