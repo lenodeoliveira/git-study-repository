@@ -33,6 +33,7 @@
    * Alterando nome da branch local e remotamente
      1. Local: `git branch --move bad-branch-name corrected-branch-name`
      2. Remoto: `git push --set-upstream origin corrected-branch-name` 
+     3. Excluindo branch com o nome errado: `git push origin --delete bad-branch-name`
 
 ### Autor
 ---
