@@ -3,11 +3,13 @@
 
 - Git Branching
     * Criando uma nova branch 
-        > `$ git branch testing`
+        > `git branch testing`
     * Criando branch e trocando para ela
         > `git checkout -b testing`
     * Trocando de branch
-        > `$ git checkout testing`
+        > `git checkout testing`
+    * Obtendo lista de branches
+        > `git branch`
     * Histórico de commits mostrando ponteiros de branch
         > `git log --oneline --decorate --graph --all`
 
