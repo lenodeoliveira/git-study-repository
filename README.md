@@ -1,13 +1,17 @@
-## REPOSITÓRIO DE TESTES E ESTUDOS SOBRE GIT
+## REPOSITÓRIO DE TESTES E ESTUDOS SOBRE GIT :open_file_folder: 🚀
 
 
 - Git Branching
     * Criando uma nova branch 
-        > `$ git branch testing`
+        > `git branch testing`
     * Criando branch e trocando para ela
         > `git checkout -b testing`
     * Trocando de branch
-        > `$ git checkout testing`
+        > `git checkout testing`
+    * Obtendo lista de branches
+        > `git branch`
+    * Verificando o último commit em cada branch
+        > `git branch -v`  
     * Histórico de commits mostrando ponteiros de branch
         > `git log --oneline --decorate --graph --all`
 
@@ -19,9 +23,16 @@
    
    * Após mesclagem podemos deletar a branch
       1. `git branch -d testing`  
+   
+   * Branches que contém trabalhos que ainda não foram mesclados
+      > `git branch --no-merged`
 
-
-
+   * Verificar branches com trabalhos já mesclados
+     > `git branch --merged`
+   
+   * Alterando nome da branch local e remotamente
+     1. Local: `git branch --move bad-branch-name corrected-branch-name`
+     2. Remoto: `git push --set-upstream origin corrected-branch-name` 
 
 ### Autor
 ---
