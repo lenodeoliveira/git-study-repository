@@ -27,8 +27,12 @@
    * Branches que contém trabalhos que ainda não foram mesclados
       > `git branch --no-merged`
 
-
-
+   * Verificar branches com trabalhos já mesclados
+     > `git branch --merged`
+   
+   * Alterando nome da branch local e remotamente
+     1. Local: `git branch --move bad-branch-name corrected-branch-name`
+     2. Remoto: `git push --set-upstream origin corrected-branch-name` 
 
 ### Autor
 ---
