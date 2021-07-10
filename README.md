@@ -1,4 +1,4 @@
-## REPOSITÓRIO DE TESTES E ESTUDOS SOBRE GIT
+## REPOSITÓRIO DE TESTES E ESTUDOS SOBRE GIT :open_file_folder: 🚀
 
 
 - Git Branching
