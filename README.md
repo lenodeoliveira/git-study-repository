@@ -28,13 +28,23 @@
       > `git branch --no-merged`
 
    * Verificar branches com trabalhos já mesclados
-     > `git branch --merged`
+      > `git branch --merged`
    
    * Alterando nome da branch local e remotamente
      1. Local: `git branch --move bad-branch-name corrected-branch-name`
      2. Remoto: `git push --set-upstream origin corrected-branch-name` 
      3. Excluindo branch com o nome errado: `git push origin --delete bad-branch-name`
- 
+    
+    * Obtendo lista completa de referências remotas
+      > `git remote show`
+    
+    * Atualizando as referências locais com as remotas, mas sem mesclar localmente
+      > `git fetch`
+    
+    * Atualizando as referências locais com as remotas e fazendo mesclagem
+      > `git pull`
+    * Excluindo branch remota
+      > `git push origin --delete serverfix`
 
 Referência:
 <a href="https://git-scm.com/book/en/v2">Git book</a>
